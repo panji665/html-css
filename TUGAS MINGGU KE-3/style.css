@@ -1,0 +1,235 @@
+html {
+  position: relative;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-bottom: 200px;
+}
+
+p {
+  width: 80%;
+  margin: auto;
+  padding-top: 40px;
+  font-family: "calibri";
+  font-size: 25px;
+}
+
+.jumbotron {
+  background-image: url("images/buah.png");
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  margin: auto;
+  line-height: 60px;
+  background-color: tomato;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  border-bottom: tomato;
+}
+
+.tentang {
+  font-family: "Franklin Gothic Medium";
+  line-height: 60px;
+  margin-left: 30px;
+  margin-top: 15px;
+  font-weight: 600;
+  display: inline-block;
+  color: white;
+}
+
+.menu {
+  float: right;
+}
+
+ol {
+  width: 80%;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "calibri";
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  font-family: "calibri";
+  background: tomato;
+  list-style: none;
+  margin: 0px;
+  padding-left: 0px;
+}
+
+ul li {
+  color: #ffffff;
+  background: tomato;
+  display: inline-block;
+  border: 1px red;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+}
+
+ul li a {
+  color: #ffffff;
+}
+
+ul li:hover {
+  background: red;
+  cursor: pointer;
+}
+
+ul li ul {
+  background: tomato;
+  visibility: hidden;
+  position: absolute;
+  margin-top: 10px;
+  left: 0;
+  display: none;
+}
+
+section {
+  margin-top: 2%;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.inti {
+  position: relative;
+  font-family: "Franklin Gothic Medium";
+  font-size: 40px;
+  color: tomato;
+  padding-top: 40px;
+}
+
+hr {
+  position: relative;
+  margin-top: 5px;
+  width: 850px;
+  border-color: tomato;
+}
+
+.jenis {
+  position: relative;
+  font-family: "Franklin Gothic Medium";
+  font-size: 30px;
+  color: tomato;
+  padding-top: 40px;
+  margin-top: 50px;
+}
+
+.apel {
+  position: relative;
+  margin-top: 50px;
+  padding-left: 50px;
+  width: 500px;
+  height: 250px;
+}
+
+.pisang {
+  position: relative;
+  margin-top: 50px;
+  padding-left: 50px;
+  width: 500px;
+  height: 250px;
+}
+
+.jeruk {
+  position: relative;
+  margin-top: 50px;
+  padding-left: 50px;
+  width: 500px;
+  height: 250px;
+}
+
+.mangga {
+  position: relative;
+  margin-top: 50px;
+  padding-left: 50px;
+  width: 500px;
+  height: 250px;
+}
+
+.kontak {
+  position: relative;
+  font-family: "Franklin Gothic Medium";
+  font-size: 30px;
+  color: tomato;
+  padding-top: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: tomato;
+}
+
+.copyright {
+  color: white;
+  padding-top: 40px;
+  font-family: "Franklin Gothic Medium";
+}
+
+.form {
+  width: 10%;
+  margin: auto;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.button {
+  background-color: tomato;
+  color: white;
+  border: white 3px solid;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+button a:hover {
+  text-decoration: transparent;
+}
+
+table {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.daftarharga {
+  font-family: "Franklin Gothic Medium";
+  line-height: 60px;
+  margin-left: 100px;
+  margin-top: 15px;
+  font-weight: 400;
+  display: inline-block;
+  color: tomato;
+}
